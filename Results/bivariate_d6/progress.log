@@ -1,0 +1,10 @@
+[2026-04-09 10:28:31] === Degree 6: 28 monomials, 128 workers ===
+[2026-04-09 10:28:31]     300 restarts/worker, 100000 steps/restart
+[2026-04-09 10:28:31]     Total: 38,400 restarts, 3,840,000,000 steps
+[2026-04-09 10:28:31]   --- COMPLETE search ---
+[2026-04-09 15:41:10]     Found 0 new unique sparse bivariate polys in 18758.58s
+[2026-04-09 15:41:10]   --- INCOMPLETE search ---
+[2026-04-09 16:56:46]     Found 22 new unique sparse bivariate polys in 4536.17s
+[2026-04-09 16:56:46]   TOTAL unique sparse bivariate polynomials: 22
+[2026-04-09 16:56:46]   By #vertices of NP(f^2): {4: 22}
+[2026-04-09 16:56:46]   Results written to bivariate_d6/results.txt

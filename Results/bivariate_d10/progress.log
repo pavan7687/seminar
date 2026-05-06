@@ -1,0 +1,10 @@
+[2026-04-21 21:31:23] === Degree 10: 66 monomials, f^2 has 231 monomials ===
+[2026-04-21 21:31:23]     128 workers, 700 restarts/worker, 300000 steps/restart
+[2026-04-21 21:31:23]     Total: 89,600 restarts, 26,880,000,000 steps
+[2026-04-21 21:31:23]   --- COMPLETE search ---
+[2026-04-23 00:21:58]     complete: 0 new unique sparse polys in 96635.2s
+[2026-04-23 00:21:58]   --- INCOMPLETE search ---
+[2026-04-23 15:06:16]     incomplete: 5 new unique sparse polys in 53058.5s
+[2026-04-23 15:06:16]   TOTAL: 5 unique sparse bivariate polys
+[2026-04-23 15:06:16]   By #vertices of NP(f^2): {4: 1, 3: 4}
+[2026-04-23 15:06:16]   Results -> bivariate_d10/results.txt

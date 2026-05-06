@@ -1,0 +1,18 @@
+# GF(3) Truly Bivariate Sparse Polynomial Search — Degree 9
+# Generated  : 2026-04-21 21:31:23
+# Monomials  : 55 total for degree 9
+# Filter     : s2 < s1, Newton polytope dim=2, truly bivariate
+# Symmetry   : canonical under rescaling (alpha,beta in {1,2}) + leading=1
+# SA params  : 128 workers, 600 restarts/worker, 250000 steps/restart
+# Total      : 76,800 restarts, 19,200,000,000 total steps
+# Results    : 1 unique sparse bivariate polynomials
+# By NP(f^2) vertices: {4: 1}
+#
+--- Entry 1 ---
+  type     = incomplete
+  f        = x**9 + 2*x**8*y + x**7*y + x**6*y**2 + 2*x**7 + 2*x**6*y + 2*x**4*y**3 + x**5*y + x**3*y**3 + 2*x**2*y**4 + 2*x**5 + x**4*y + x**3*y**2 + x**2*y**3 + 2*x*y**4 + 2*y**5 + 2*x**3*y + 2*x*y**3 + y**4 + 2*x**3 + 2*x**2*y + 2*y**3 + x**2 + 2*x*y + 2*y**2 + 2*x + y + 2
+  f^2      = x**18 + x**17*y + x**16*y**2 + 2*x**16*y + x**14*y**3 + x**16 + 2*x**14 + x**11*y**3 + x**8*y**6 + 2*x**11 + 2*x**8*y**3 + 2*x**2*y**9 + x**10 + 2*x**9*y + 2*x*y**9 + y**10 + 2*x**9 + y**9 + x**8 + 2*x**2 + 2*x + y + 1
+  s1=28, s2=23, drop=5
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (9, 0), (8, 1), (0, 5)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (18, 0), (16, 2), (0, 10)]
+

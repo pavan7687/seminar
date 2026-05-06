@@ -1,0 +1,170 @@
+# GF(3) Truly Bivariate Sparse Polynomial Search — Degree 5
+# Generated  : 2026-04-09 10:28:31
+# Monomials  : 21 total for degree 5
+# Filter     : s2 < s1, Newton polytope dim=2, truly bivariate
+# Symmetry   : canonical under rescaling + reversal
+# SA params  : 128 workers, 200 restarts/worker, 50000 steps/restart
+# Total      : 25,600 restarts, 1,280,000,000 total steps
+# Results    : 20 unique sparse bivariate polynomials
+# By NP(f^2) vertices: {4: 4, 3: 16}
+#
+--- Entry 1 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + x*y**4 + x**4 + 2*x**3*y + 2*x*y**3 + 2*y**4 + x**3 + 2*y**3 + 2*x**2 + 2*x*y + 2*y**2 + 2*x + y + 2
+  f^2      = x**10 + 2*x**9*y + x**6*y**4 + x**3*y**7 + x**2*y**8 + 2*x**9 + x*y**8 + y**8 + x**3*y**4 + 2*y**7 + y**4 + 2*x + y + 1
+  s1=17, s2=14, drop=3
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (5, 0), (1, 4), (0, 4)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (10, 0), (2, 8), (0, 8)]
+
+--- Entry 2 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + x*y**4 + 2*x**4 + x**3*y + x*y**3 + y**4 + x**3 + 2*y**3 + x**2 + x*y + y**2 + 2*x + y + 1
+  f^2      = x**10 + 2*x**9*y + x**6*y**4 + x**3*y**7 + x**2*y**8 + x**9 + 2*x*y**8 + y**8 + 2*x**3*y**4 + y**7 + y**4 + x + 2*y + 1
+  s1=17, s2=14, drop=3
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (5, 0), (1, 4), (0, 4)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (10, 0), (2, 8), (0, 8)]
+
+--- Entry 3 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + x*y**4 + x**4 + x**3*y + x*y**3 + 2*y**4 + x**3 + y**3 + 2*x**2 + x*y + 2*y**2 + 2*x + 2*y + 2
+  f^2      = x**10 + x**9*y + x**6*y**4 + 2*x**3*y**7 + x**2*y**8 + 2*x**9 + x*y**8 + y**8 + x**3*y**4 + y**7 + y**4 + 2*x + 2*y + 1
+  s1=17, s2=14, drop=3
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (5, 0), (1, 4), (0, 4)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (10, 0), (2, 8), (0, 8)]
+
+--- Entry 4 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + x*y**4 + 2*x**4 + 2*x**3*y + 2*x*y**3 + y**4 + x**3 + y**3 + x**2 + 2*x*y + y**2 + 2*x + 2*y + 1
+  f^2      = x**10 + x**9*y + x**6*y**4 + 2*x**3*y**7 + x**2*y**8 + x**9 + 2*x*y**8 + y**8 + 2*x**3*y**4 + 2*y**7 + y**4 + x + y + 1
+  s1=17, s2=14, drop=3
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (5, 0), (1, 4), (0, 4)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (10, 0), (2, 8), (0, 8)]
+
+--- Entry 5 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + 2*x*y**4 + 2*y**5 + x**4 + 2*x**3*y + 2*x*y**3 + y**4 + x**3 + 2*y**3 + 2*x**2 + 2*x*y + 2*y**2 + 2*x + y + 2
+  f^2      = x**10 + 2*x**9*y + 2*x*y**9 + y**10 + 2*x**9 + y**9 + 2*x + y + 1
+  s1=18, s2=9, drop=9
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 6 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*x*y**4 + y**5 + 2*x**4 + 2*x**3*y + 2*x*y**3 + 2*y**4 + x**3 + y**3 + x**2 + 2*x*y + y**2 + 2*x + 2*y + 1
+  f^2      = x**10 + x**9*y + x*y**9 + y**10 + x**9 + y**9 + x + y + 1
+  s1=18, s2=9, drop=9
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 7 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + 2*x*y**4 + 2*y**5 + 2*x**4 + x**3*y + x*y**3 + 2*y**4 + x**3 + 2*y**3 + x**2 + x*y + y**2 + 2*x + y + 1
+  f^2      = x**10 + 2*x**9*y + 2*x*y**9 + y**10 + x**9 + 2*y**9 + x + 2*y + 1
+  s1=18, s2=9, drop=9
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 8 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*x*y**4 + y**5 + x**4 + x**3*y + x*y**3 + y**4 + x**3 + y**3 + 2*x**2 + x*y + 2*y**2 + 2*x + 2*y + 2
+  f^2      = x**10 + x**9*y + x*y**9 + y**10 + 2*x**9 + 2*y**9 + 2*x + 2*y + 1
+  s1=18, s2=9, drop=9
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 9 ---
+  type     = incomplete
+  f        = x**5 + 2*x**3*y**2 + 2*x**2*y**3 + x*y**4 + 2*y**5 + x**3*y + x*y**3 + y**4 + 2*x**3 + 2*y**3 + 2*x**2 + x*y + 2*y**2 + x + y + 2
+  f^2      = x**10 + x**8*y**2 + x**7*y**3 + 2*x**4*y**6 + x*y**9 + y**10 + 2*x**8*y + y**9 + x**8 + x**7 + x**4*y**3 + 2*x**4 + x + y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 10 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*y**5 + x**4 + x**3*y + x*y**3 + x**3 + y**3 + 2*x**2 + x*y + 2*y**2 + 2*x + 2*y + 2
+  f^2      = x**10 + x**9*y + 2*x**6*y**4 + x**3*y**7 + x**2*y**8 + y**10 + 2*x**9 + x*y**8 + y**8 + 2*x**3*y**4 + 2*y**7 + 2*y**4 + 2*x + 2*y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 11 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + y**5 + 2*x**4 + x**3*y + x*y**3 + x**3 + 2*y**3 + x**2 + x*y + y**2 + 2*x + y + 1
+  f^2      = x**10 + 2*x**9*y + 2*x**6*y**4 + 2*x**3*y**7 + x**2*y**8 + y**10 + x**9 + 2*x*y**8 + y**8 + x**3*y**4 + 2*y**7 + 2*y**4 + x + 2*y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 12 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + 2*x*y**4 + 2*y**5 + x**4 + 2*x**3*y + 2*x*y**3 + y**4 + x**3 + 2*y**3 + 2*x**2 + 2*x*y + 2*y**2 + 1
+  f^2      = x**10 + 2*x**9*y + 2*x*y**9 + y**10 + 2*x**9 + y**9 + 2*x**6 + 2*x**3*y**3 + 2*y**6 + 2*x**3 + y**3 + x**2 + x*y + y**2 + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 13 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*y**5 + 2*x**4 + 2*x**3*y + 2*x*y**3 + x**3 + y**3 + x**2 + 2*x*y + y**2 + 2*x + 2*y + 1
+  f^2      = x**10 + x**9*y + 2*x**6*y**4 + x**3*y**7 + x**2*y**8 + y**10 + x**9 + 2*x*y**8 + y**8 + x**3*y**4 + y**7 + 2*y**4 + x + y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 14 ---
+  type     = incomplete
+  f        = x**5 + 2*x**3*y**2 + x**2*y**3 + x*y**4 + y**5 + x**3*y + x*y**3 + 2*y**4 + 2*x**3 + y**3 + x**2 + x*y + y**2 + x + 2*y + 1
+  f^2      = x**10 + x**8*y**2 + 2*x**7*y**3 + 2*x**4*y**6 + 2*x*y**9 + y**10 + 2*x**8*y + y**9 + x**8 + 2*x**7 + x**4*y**3 + 2*x**4 + 2*x + y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 15 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + 2*x*y**4 + 2*y**5 + 2*x**4 + x**3*y + x*y**3 + 2*y**4 + x**3 + 2*y**3 + x**2 + x*y + y**2 + 2
+  f^2      = x**10 + 2*x**9*y + 2*x*y**9 + y**10 + x**9 + 2*y**9 + 2*x**6 + 2*x**3*y**3 + 2*y**6 + x**3 + 2*y**3 + x**2 + x*y + y**2 + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 16 ---
+  type     = incomplete
+  f        = x**5 + 2*x**3*y**2 + 2*x**2*y**3 + x*y**4 + 2*y**5 + 2*x**3*y + 2*x*y**3 + 2*y**4 + 2*x**3 + 2*y**3 + x**2 + 2*x*y + y**2 + x + y + 1
+  f^2      = x**10 + x**8*y**2 + x**7*y**3 + 2*x**4*y**6 + x*y**9 + y**10 + x**8*y + 2*y**9 + x**8 + 2*x**7 + 2*x**4*y**3 + 2*x**4 + 2*x + 2*y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 17 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*x*y**4 + y**5 + x**4 + x**3*y + x*y**3 + y**4 + x**3 + y**3 + 2*x**2 + x*y + 2*y**2 + 1
+  f^2      = x**10 + x**9*y + x*y**9 + y**10 + 2*x**9 + 2*y**9 + 2*x**6 + x**3*y**3 + 2*y**6 + 2*x**3 + 2*y**3 + x**2 + 2*x*y + y**2 + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 18 ---
+  type     = incomplete
+  f        = x**5 + x**4*y + x**3*y**2 + 2*x**2*y**3 + y**5 + x**4 + 2*x**3*y + 2*x*y**3 + x**3 + 2*y**3 + 2*x**2 + 2*x*y + 2*y**2 + 2*x + y + 2
+  f^2      = x**10 + 2*x**9*y + 2*x**6*y**4 + 2*x**3*y**7 + x**2*y**8 + y**10 + 2*x**9 + x*y**8 + y**8 + 2*x**3*y**4 + y**7 + 2*y**4 + 2*x + y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 19 ---
+  type     = incomplete
+  f        = x**5 + 2*x**3*y**2 + x**2*y**3 + x*y**4 + y**5 + 2*x**3*y + 2*x*y**3 + y**4 + 2*x**3 + y**3 + 2*x**2 + 2*x*y + 2*y**2 + x + 2*y + 2
+  f^2      = x**10 + x**8*y**2 + 2*x**7*y**3 + 2*x**4*y**6 + 2*x*y**9 + y**10 + x**8*y + 2*y**9 + x**8 + x**7 + 2*x**4*y**3 + 2*x**4 + x + 2*y + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+
+--- Entry 20 ---
+  type     = incomplete
+  f        = x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*x*y**4 + y**5 + 2*x**4 + 2*x**3*y + 2*x*y**3 + 2*y**4 + x**3 + y**3 + x**2 + 2*x*y + y**2 + 2
+  f^2      = x**10 + x**9*y + x*y**9 + y**10 + x**9 + y**9 + 2*x**6 + x**3*y**3 + 2*y**6 + x**3 + y**3 + x**2 + 2*x*y + y**2 + 1
+  s1=16, s2=15, drop=1
+  NP(f)  : dim=2, #vertices=3, corners=[(0, 0), (5, 0), (0, 5)]
+  NP(f^2): dim=2, #vertices=3, corners=[(0, 0), (10, 0), (0, 10)]
+

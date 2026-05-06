@@ -1,0 +1,34 @@
+# GF(3) Truly Bivariate Sparse Polynomial Search — Degree 8
+# Generated  : 2026-04-20 12:30:33
+# Monomials  : 45 total for degree 8
+# Filter     : s2 < s1, Newton polytope dim=2, truly bivariate
+# Symmetry   : canonical under rescaling (alpha,beta in {1,2}) + leading=1
+# SA params  : 128 workers, 500 restarts/worker, 200000 steps/restart
+# Total      : 64,000 restarts, 12,800,000,000 total steps
+# Results    : 3 unique sparse bivariate polynomials
+# By NP(f^2) vertices: {4: 3}
+#
+--- Entry 1 ---
+  type     = incomplete
+  f        = x**8 + 2*x**7*y + x**7 + 2*x**5 + 2*x**4*y + 2*x**3*y**2 + x**2*y**3 + x*y**4 + y**5 + x**4 + 2*x**3*y + 2*x*y**3 + y**4 + 2*x**3 + y**3 + 2*x**2 + 2*x*y + 2*y**2 + x + 2*y + 2
+  f^2      = x**16 + x**15*y + x**14*y**2 + 2*x**15 + x**14*y + x**14 + x**13 + x**10*y**3 + x**7*y**6 + 2*x**9*y + x**7*y**3 + 2*x*y**9 + y**10 + x**9 + 2*y**9 + x**7 + x + 2*y + 1
+  s1=21, s2=19, drop=2
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (8, 0), (7, 1), (0, 5)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (16, 0), (14, 2), (0, 10)]
+
+--- Entry 2 ---
+  type     = incomplete
+  f        = x**8 + x**7*y + x**6*y**2 + 2*x**5*y**3 + 2*x**4*y**4 + 2*x**3*y**5 + 2*x**7 + x**6*y + x**4*y**3 + 2*x**3*y**4 + x**6 + 2*x**3*y**3 + x**5 + x**4*y + x**3*y**2 + 2*x**4 + x**3*y + x**3 + 2*x + y + 2
+  f^2      = x**16 + 2*x**15*y + 2*x**7*y**9 + x**6*y**10 + x**15 + 2*x**6*y**9 + x**9 + x**6*y**3 + x**3*y**6 + x**7 + 2*x**6*y + x**3*y**3 + x**3 + x**2 + x*y + y**2 + 2*x + y + 1
+  s1=21, s2=19, drop=2
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (8, 0), (3, 5), (0, 1)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (16, 0), (6, 10), (0, 2)]
+
+--- Entry 3 ---
+  type     = incomplete
+  f        = x**8 + x**7*y + x**7 + x**5 + 2*x**4*y + x**3*y**2 + x**2*y**3 + 2*x*y**4 + y**5 + 2*x**4 + 2*x**3*y + 2*x*y**3 + 2*y**4 + x**3 + y**3 + x**2 + 2*x*y + y**2 + 2*x + 2*y + 1
+  f^2      = x**16 + 2*x**15*y + x**14*y**2 + 2*x**15 + 2*x**14*y + x**14 + 2*x**13 + x**10*y**3 + 2*x**7*y**6 + 2*x**10 + x**9*y + x**7*y**3 + x*y**9 + y**10 + x**9 + y**9 + 2*x**7 + x + y + 1
+  s1=21, s2=20, drop=1
+  NP(f)  : dim=2, #vertices=4, corners=[(0, 0), (8, 0), (7, 1), (0, 5)]
+  NP(f^2): dim=2, #vertices=4, corners=[(0, 0), (16, 0), (14, 2), (0, 10)]
+
